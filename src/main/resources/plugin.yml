@@ -1,0 +1,13 @@
+name: ThreeHeadsDragon
+version: 1.0.0
+main: dev.threeheads.ThreeHeadsPlugin
+api-version: '1.21'
+description: Gives the Ender Dragon two extra heads that copy the real head and can be hit.
+commands:
+  threeheads:
+    description: ThreeHeadsDragon admin command
+    usage: /threeheads reload
+    permission: threeheads.admin
+permissions:
+  threeheads.admin:
+    default: op

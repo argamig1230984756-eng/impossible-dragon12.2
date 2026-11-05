@@ -1,0 +1,50 @@
+# Distance (blocks) of each extra head to the left / right of the real head.
+spacing: 3.0
+
+# Size of the head model (the vanilla dragon head item is scaled by this).
+scale: 2.5
+
+# Move the model up (+) or down (-) if it looks too high / low.
+y-offset: 0.0
+
+# Move the two extra heads forward (+) or back (-) compared to the real head.
+forward-offset: 0.0
+
+# Size of the hitbox of each extra head. 1 = 0.5 blocks, 2 = 1.0 (same as the real head), 3 = 1.5, 4 = 2.0 ...
+hitbox-size: 3
+
+# Turn on if the head models look backwards.
+flip-facing: false
+
+# true = only players (and their arrows etc.) can damage the extra heads.
+only-players: true
+
+# 1.0 = same damage the real head takes.
+damage-multiplier: 1.0
+
+# false = only worlds of type THE_END get extra heads.
+all-worlds: false
+
+# ---- necks of the two extra heads (copied from the real dragon's neck shape) ----
+
+# false = no necks, only floating heads.
+neck: true
+
+# How many segments the neck is made of (the real dragon has 5).
+neck-segments: 5
+
+# Thickness of a neck segment in blocks.
+neck-size: 0.8
+
+# 0 = neck is an exact parallel copy of the real neck, 1 = it bends back and joins the body.
+neck-converge: 1.0
+
+# Move the whole neck up (+) or down (-) in blocks.
+neck-y-offset: 0.7
+
+# Spines on top of the neck, like the real neck.
+neck-spikes: true
+
+# Any item/block name from the Material list.
+neck-material: BLACK_CONCRETE
+spike-material: LIGHT_GRAY_CONCRETE
